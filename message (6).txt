@@ -291,7 +291,7 @@ do
 			local Colorpicker = Instance.new("TextButton")
 			Colorpicker.Name = "Colorpicker"
 			Colorpicker.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-			Colorpicker.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Colorpicker.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			Colorpicker.BorderSizePixel = 0
 			Colorpicker.Position = UDim2.new(0, ColorpickerFrame.AbsolutePosition.X - 100, 0, ColorpickerFrame.AbsolutePosition.Y - 50)
 			Colorpicker.Size = UDim2.new(0, 180, 0, 180)
@@ -305,7 +305,7 @@ do
 			ImageLabel.Name = "ImageLabel"
 			ImageLabel.Image = "rbxassetid://11970108040"
 			ImageLabel.BackgroundColor3 = Color3.fromHSV(H, 1, 1)
-			ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			ImageLabel.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			ImageLabel.BorderSizePixel = 0
 			ImageLabel.Position = UDim2.new(0.0556, 0, 0.026, 0)
 			ImageLabel.Size = UDim2.new(0, 160, 0, 154)
@@ -320,7 +320,7 @@ do
 			ImageButton.Name = "ImageButton"
 			ImageButton.Image = "rbxassetid://14684562507"
 			ImageButton.BackgroundColor3 = Color3.fromHSV(H, 1, 1)
-			ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			ImageButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			ImageButton.BorderSizePixel = 0
 			ImageButton.Position = UDim2.new(0.056, 0, 0.026, 0)
 			ImageButton.Size = UDim2.new(0, 160, 0, 154)
@@ -340,7 +340,7 @@ do
 			Val.Image = "http://www.roblox.com/asset/?id=14684563800"
 			Val.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Val.BackgroundTransparency = 1
-			Val.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Val.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			Val.BorderSizePixel = 0
 			Val.Size = UDim2.new(1, 0, 1, 0)
 			Val.Parent = ImageButton
@@ -363,7 +363,7 @@ do
 			ImageButton1.Name = "ImageButton"
 			ImageButton1.Image = "http://www.roblox.com/asset/?id=16789872274"
 			ImageButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ImageButton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			ImageButton1.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			ImageButton1.BorderSizePixel = 0
 			ImageButton1.Position = UDim2.new(0.5, 0,0, 165)
 			ImageButton1.Size = UDim2.new(0, 160,0, 8)
@@ -374,7 +374,7 @@ do
 			local Frame = Instance.new("Frame")
 			Frame.Name = "Frame"
 			Frame.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
-			Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			Frame.BorderSizePixel = 0
 			Frame.Position = UDim2.new(0.926, 0,0.5, 0)
 			Frame.Size = UDim2.new(0, 12,0, 12)
@@ -591,7 +591,7 @@ do
 		NewInd.Position = UDim2.new(0,20,0,20)
 		NewInd.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 		NewInd.BackgroundTransparency = 1
-		NewInd.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		NewInd.BorderColor3 = Color3.fromRGB(255, 0, 0)
 		NewInd.Size = UDim2.fromOffset(0, 20)
 		NewInd.Parent = Library.ScreenGUI
 		notification.Container = NewInd
@@ -601,7 +601,7 @@ do
 		Outline.AnchorPoint = Vector2.new(0, 0)
 		Outline.AutomaticSize = Enum.AutomaticSize.X
 		Outline.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-		Outline.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Outline.BorderColor3 = Color3.fromRGB(255, 0, 0)
 		Outline.BorderSizePixel = 1
 		Outline.Position = UDim2.new(0,0,0,0)
 		Outline.Size = UDim2.fromOffset(0, 20)
@@ -623,7 +623,7 @@ do
 		local Inline = Instance.new("Frame")
 		Inline.Name = "Inline"
 		Inline.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
-		Inline.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Inline.BorderColor3 = Color3.fromRGB(255, 0, 0)
 		Inline.BorderSizePixel = 0
 		Inline.Position = UDim2.fromOffset(1, 1)
 		Inline.Size = UDim2.new(1, -2, 1, -2)
@@ -2529,7 +2529,7 @@ do
 			local Inline = Instance.new("Frame")
 			Inline.Name = "Inline"
 			Inline.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
-			Inline.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Inline.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			Inline.BorderSizePixel = 0
 			Inline.Position = UDim2.fromOffset(1, 1)
 			Inline.Size = UDim2.new(1, -2, 1, -2)
@@ -2551,7 +2551,7 @@ do
 			Title.AutomaticSize = Enum.AutomaticSize.X
 			Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title.BackgroundTransparency = 1
-			Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Title.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			Title.BorderSizePixel = 0
 			Title.Position = UDim2.fromOffset(5, 0)
 			Title.Size = UDim2.fromScale(0, 1)
