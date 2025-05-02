@@ -1,4 +1,4 @@
- -- Library
+-- Library
 -- Coded by 379v
 local Library = {};
 do
@@ -1237,7 +1237,7 @@ do
 			ToggleAccent.BackgroundColor3 = Library.Accent
 			ToggleAccent.BackgroundTransparency = 1
 			ToggleAccent.BorderSizePixel = 0
-			ToggleAccent.BorderColor3 = Color3.new(255,0,0)
+			ToggleAccent.BorderColor3 = Color3.new(0,0,0)
 			ToggleAccent.ZIndex = 53
 			table.insert(Library.ThemeObjects, ToggleAccent)
 			--
@@ -1530,7 +1530,7 @@ do
 			Fill.Size = UDim2.new(0,0,1,0)
 			Fill.BackgroundColor3 = Library.Accent
 			Fill.BorderSizePixel = 0
-			Fill.BorderColor3 = Color3.new(255,0,0)
+			Fill.BorderColor3 = Color3.new(0,0,0)
 			Fill.Text = ""
 			Fill.TextColor3 = Color3.new(0,0,0)
 			Fill.AutoButtonColor = false
