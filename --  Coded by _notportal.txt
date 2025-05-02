@@ -291,7 +291,7 @@ do
 			Icon.Name = "Icon"
 			Icon.AnchorPoint = Vector2.new(0, 0.5)
 			Icon.BackgroundColor3 = default
-			Icon.BorderColor3 = Color3.fromRGB(255,0,0)
+			Icon.BorderColor3 = Color3.fromRGB(50,50,50)
 			Icon.BorderSizePixel = 1
 			if count == 1 then
 				Icon.Position = UDim2.new(1, - (count * 21),0.5,0)
@@ -392,7 +392,7 @@ do
 			Hue.Image = "http://www.roblox.com/asset/?id=14684557999"
 			Hue.AutoButtonColor = false
 			Hue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			Hue.BorderColor3 = Color3.fromRGB(255, 0, 0)
+			Hue.BorderColor3 = Color3.fromRGB(50, 50, 50)
 			Hue.Position = UDim2.new(1, -16, 0, 6)
 			Hue.Size = UDim2.new(0, 10, 1, -12)
 
@@ -744,7 +744,7 @@ do
 
 			local HolderOutline = Instance.new("Frame")
 			HolderOutline.Name = "HolderOutline"
-			HolderOutline.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			HolderOutline.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 			HolderOutline.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			HolderOutline.Position = UDim2.new(0, 6, 0, 22)
 			HolderOutline.Size = UDim2.new(1, -12, 1, -28)
@@ -759,7 +759,7 @@ do
 
 			local PageOutline = Instance.new("Frame")
 			PageOutline.Name = "PageOutline"
-			PageOutline.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			PageOutline.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 			PageOutline.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			PageOutline.Position = UDim2.new(0, 4, 0, 26)
 			PageOutline.Size = UDim2.new(1, -8, 1, -30)
