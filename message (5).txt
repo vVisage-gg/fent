@@ -264,7 +264,7 @@ do
 			local ColorpickerFrame = Instance.new("TextButton")
 			ColorpickerFrame.Name = "Colorpicker_frame"
 			ColorpickerFrame.BackgroundColor3 = default
-			ColorpickerFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			ColorpickerFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			ColorpickerFrame.BorderSizePixel = 0
 			if count == 1 then
 				ColorpickerFrame.Position = UDim2.new(1, - (count * 20),0.5,0)
@@ -646,7 +646,7 @@ do
 		Title.AutomaticSize = Enum.AutomaticSize.X
 		Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Title.BackgroundTransparency = 1
-		Title.BorderColor3 = Color3.fromRGB(255, 0, 0)
+		Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Title.BorderSizePixel = 0
 		Title.Position = UDim2.fromOffset(5, 0)
 		Title.Size = UDim2.fromScale(0, 1)
@@ -741,7 +741,7 @@ do
 			Outline.Position = UDim2.new(0.5,0,0.5,0)
 			Outline.Size = UDim2.new(0,0,0,40)
 			Outline.BackgroundColor3 = Color3.new(0.1961,0.1961,0.1961)
-			Outline.BorderColor3 = Color3.new(255,0,0)
+			Outline.BorderColor3 = Color3.new(0,0,0)
 			Outline.AnchorPoint = Vector2.new(0.5,0.5)
 			Outline.ZIndex = 50
 			Outline.ClipsDescendants = true
@@ -753,7 +753,7 @@ do
 			Inline.Size = UDim2.new(1,-2,1,-2)
 			Inline.BackgroundColor3 = Color3.new(0.051,0.051,0.051)
 			Inline.BorderSizePixel = 0
-			Inline.BorderColor3 = Color3.new(255,0,0)
+			Inline.BorderColor3 = Color3.new(0,0,0)
 			Inline.ZIndex = 51
 			--
 			Holder.Name = "Holder"
